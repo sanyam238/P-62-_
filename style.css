@@ -10,6 +10,24 @@ img{
     height:100%;
     width: 100%;
 }
+ul{
+    background-color: black;
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+    overflow: hidden;
+    top: 0;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
 #home{
     background-color: black;
 }
@@ -17,7 +35,7 @@ html{
     scroll-behavior: smooth;
 }
 .menu{
-    list-style: none;
+    list-style: none;o
     font-family: sans-serif;
     top: 0px;
     margin-top: 0px;
@@ -32,35 +50,4 @@ html{
     font-size: 20px;
     color: cornflowerblue;
     display: inline;
-}
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-position: fixed;
-    top: 0;
-  width: 100%;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-li a:hover {
-  background-color: #111;
-}
-.active {
-  background-color: #04AA6D;
-}
-#container{
-background-color: black;
 }
